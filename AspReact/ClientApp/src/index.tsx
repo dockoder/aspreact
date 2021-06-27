@@ -19,6 +19,7 @@ import Onecomp from './components/Firstcomp';
 import Maincomp from './components/Maincomp';
 import Randomstring from './components/Randomstring';
 import SearchArrayString from './components/SearchArrayString';
+import Removeborder from './components/Removeborder';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -41,7 +42,8 @@ ReactDOM.render(
                 <Allownumbers />
                 <Maincomp />
                 <Randomstring />
-                <SearchArrayString  />
+                <SearchArrayString />
+                <Removeborder />
             </>
 
         </ConnectedRouter>
