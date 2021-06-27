@@ -12,6 +12,7 @@ import Hello from './components/Hello';
 import Textboxvalue from './components/Textboxvalue';
 import GetRadiovalue from './components/GetRadiovalue';
 import Edbutton from './components/Edbutton';
+import Jsondatadisplay from './components/Jsondatadisplay';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -28,7 +29,8 @@ ReactDOM.render(
                 <Hello />
                 <Textboxvalue />
                 <GetRadiovalue />
-                <Edbutton/>
+                <Edbutton />
+                <Jsondatadisplay />
             </>
 
         </ConnectedRouter>
