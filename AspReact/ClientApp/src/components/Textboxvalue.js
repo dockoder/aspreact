@@ -15,9 +15,9 @@ const Textboxvalue = () => {
         <>
             <center> 
                 <label for="name">Name: </label>
-                <input ref={inputRef} value={data} type="text" name="name" onChange={(e) => setData(e.target.value)} />
-                <br/>
-                <button type="submit" >Click</button>
+                <input ref={inputRef} value={data} type="text" name="name" onChange={e => setData(e.target.value)} />
+                <br />
+                <button type="submit" onClick={()=> alert('Entered Text is: ' + data)} >Click</button>
                 <br />
                 {data}
             </center>

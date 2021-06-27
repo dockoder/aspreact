@@ -10,6 +10,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Hello from './components/Hello';
 import Textboxvalue from './components/Textboxvalue';
+import GetRadiovalue from './components/GetRadiovalue';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -25,6 +26,7 @@ ReactDOM.render(
             <>
                 <Hello />
                 <Textboxvalue />
+                <GetRadiovalue/>
             </>
 
         </ConnectedRouter>
