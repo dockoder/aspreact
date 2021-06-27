@@ -34,9 +34,10 @@ const Jsondatadisplay = () => {
     return (
         <>
             <center>
+                <hr />
                 <h3>Display Json data into an HTML Table</h3>
                 <h4>asp.net core react.js redux examples</h4>
-                <hr />
+                
                 <table border="1">
                     <tr>
                         <th>Emp Id</th>
