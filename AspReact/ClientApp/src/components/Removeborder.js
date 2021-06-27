@@ -5,9 +5,6 @@ import './NavMenu.css';
 
 const Removeborder = () => {
 
-   
-
-
     return (
         <>
             <center>
