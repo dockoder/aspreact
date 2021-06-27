@@ -17,6 +17,7 @@ import ArrayUnique from './components/ArrayUnique';
 import Allownumbers from './components/AllowNumbers';
 import Onecomp from './components/Firstcomp';
 import Maincomp from './components/Maincomp';
+import Randomstring from './components/Randomstring';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -38,6 +39,7 @@ ReactDOM.render(
                 <ArrayUnique />
                 <Allownumbers />
                 <Maincomp />
+                <Randomstring />
             </>
 
         </ConnectedRouter>
