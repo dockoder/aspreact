@@ -21,6 +21,8 @@ import Randomstring from './components/Randomstring';
 import SearchArrayString from './components/SearchArrayString';
 import Removeborder from './components/Removeborder';
 import CASDropdown from './components/CASDropdown';
+import BackgroundComponent from './components/BackgroundComponent';
+import Webapi from './components/Webapi';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -46,6 +48,8 @@ ReactDOM.render(
                 <SearchArrayString />
                 <Removeborder />
                 <CASDropdown />
+                <BackgroundComponent />
+                <Webapi />
             </>
 
         </ConnectedRouter>
