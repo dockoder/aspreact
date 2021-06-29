@@ -47,6 +47,7 @@ namespace AspReact
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+            app.UseCors(); //minha alteração
 
             app.UseRouting();
 
@@ -63,7 +64,8 @@ namespace AspReact
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseReactDevelopmentServer(npmScript: "start");
+                     spa.UseReactDevelopmentServer(npmScript: "start");
+                    //spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
                 }
             });
         }
